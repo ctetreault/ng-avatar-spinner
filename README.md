@@ -47,6 +47,23 @@ var Contact = {
 }
 ```
 
+**Helper Methods**
+
+There are a couple methods included that I use. They may be a bit specific to my case, but I felt they were good to leave in the code.
+
+
+- Clear all selected items
+```
+  clearAllSelections()
+```
+
+- Clear an individual item
+```
+  clearSelection(thisElement, parentEl, lastNameInitialEl, checkmarkEl, id)
+```
+
+
+
 ## Contributing Changes
 
 Please see the [README](https://github.com/blackberry/BB10-WebWorks-Samples) of the BB10-WebWorks-Samples repository for instructions on how to add new Samples or make modifications to existing Samples.
